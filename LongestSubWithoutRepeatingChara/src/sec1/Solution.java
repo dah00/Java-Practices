@@ -19,7 +19,10 @@ public class Solution {
         }
         return ans;
     }
-        /*if (s.isEmpty())
+        /*
+        ** My own solution **
+        * 
+        if (s.isEmpty())
             return 0;
 
         int length = 1;
