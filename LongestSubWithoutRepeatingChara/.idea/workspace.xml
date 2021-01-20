@@ -82,27 +82,59 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="-845" key="FileChooserDialogImpl" timestamp="1611006401831">
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
     <state x="740" y="-845" key="FileChooserDialogImpl/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611006401831" />
-    <state width="1877" height="334" key="GridCell.Tab.0.bottom" timestamp="1611007936599">
+    <state width="1877" height="411" key="GridCell.Tab.0.bottom" timestamp="1611114399577">
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611007936599" />
-    <state width="1877" height="334" key="GridCell.Tab.0.center" timestamp="1611007936598">
+    <state width="1877" height="411" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611114399577" />
+    <state width="1877" height="411" key="GridCell.Tab.0.center" timestamp="1611114399576">
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611007936598" />
-    <state width="1877" height="334" key="GridCell.Tab.0.left" timestamp="1611007936598">
+    <state width="1877" height="411" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611114399576" />
+    <state width="1877" height="411" key="GridCell.Tab.0.left" timestamp="1611114399575">
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611007936598" />
-    <state width="1877" height="334" key="GridCell.Tab.0.right" timestamp="1611007936599">
+    <state width="1877" height="411" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611114399575" />
+    <state width="1877" height="411" key="GridCell.Tab.0.right" timestamp="1611114399577">
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611007936599" />
+    <state width="1877" height="411" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611114399577" />
+    <state width="1877" height="411" key="GridCell.Tab.1.bottom" timestamp="1611113840024">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611113840024" />
+    <state width="1877" height="411" key="GridCell.Tab.1.center" timestamp="1611113840024">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611113840024" />
+    <state width="1877" height="411" key="GridCell.Tab.1.left" timestamp="1611113840024">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611113840024" />
+    <state width="1877" height="411" key="GridCell.Tab.1.right" timestamp="1611113840024">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611113840024" />
+    <state x="92" y="-1108" width="1736" height="1016" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611113633743">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state x="92" y="-1108" width="1736" height="1016" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1611113633743" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sec1/Solution.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
