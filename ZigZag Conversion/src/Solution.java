@@ -4,6 +4,7 @@ import java.util.List;
 public class Solution {
     public String convert(String s, int numRows){
 
+        // O(n) Solution
         if (numRows == 1) return s;
 
         List<StringBuilder> rows = new ArrayList<>();
