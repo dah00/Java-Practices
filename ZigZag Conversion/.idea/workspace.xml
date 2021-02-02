@@ -60,8 +60,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -90,23 +90,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1612132660463">
-      <screen x="0" y="-1200" width="1920" height="1200" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1612142947533">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660463" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1612132660463">
-      <screen x="0" y="-1200" width="1920" height="1200" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1612142947533">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660463" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1612132660462">
-      <screen x="0" y="-1200" width="1920" height="1200" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1612142947533">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660462" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1612132660463">
-      <screen x="0" y="-1200" width="1920" height="1200" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1612142947533">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660463" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
   </component>
 </project>
