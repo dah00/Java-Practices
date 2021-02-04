@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65f62f17-04b7-4eff-b8b2-bdd7f9c3d9ab" name="Default Changelist" comment="" />
+    <list default="true" id="c3a92502-e16f-4acc-bdc4-307c4620bb69" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1nkmK61EZZ6Kbd8UjKFWgLb7r7c" />
+  <component name="ProjectId" id="1nzc4QeL7dGQckZjikJpVZtVJP1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,14 +44,14 @@
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ZigZag Conversion" />
+      <module name="Reverse Integer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sec1.Main" />
-      <module name="ZigZag Conversion" />
+      <module name="Reverse Integer" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -59,10 +59,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
@@ -72,11 +68,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="65f62f17-04b7-4eff-b8b2-bdd7f9c3d9ab" name="Default Changelist" comment="" />
-      <created>1611942396022</created>
+      <changelist id="c3a92502-e16f-4acc-bdc4-307c4620bb69" name="Default Changelist" comment="" />
+      <created>1612396168648</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611942396022</updated>
+      <updated>1612396168648</updated>
     </task>
     <servers />
   </component>
@@ -93,29 +89,48 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="333" key="GridCell.Tab.0.bottom" timestamp="1612225764679">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1612424775737">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660463" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
-    <state width="1493" height="333" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1612225764679" />
-    <state width="1493" height="333" key="GridCell.Tab.0.center" timestamp="1612225764679">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1612424775737" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1612424775737">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660463" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
-    <state width="1493" height="333" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1612225764679" />
-    <state width="1493" height="333" key="GridCell.Tab.0.left" timestamp="1612225764679">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1612424775737" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1612424775737">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660462" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
-    <state width="1493" height="333" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1612225764679" />
-    <state width="1493" height="333" key="GridCell.Tab.0.right" timestamp="1612225764679">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1612424775737" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1612424775737">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1612132660463" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.0.1536.864" timestamp="1612142947533" />
-    <state width="1493" height="333" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1612225764679" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1612424775737" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1612424776081">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1612424776081" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1612424776081">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1612424776081" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1612424776081">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1612424776081" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1612424776081">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1612424776081" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
