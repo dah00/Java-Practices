@@ -2,6 +2,7 @@ public class Solution {
     public int myAtoi(String s){
         int result;
         StringBuilder strDigit = new StringBuilder();
+        boolean isNegative = false;
 
         //1. Read in and ignore any leading whitespace.
         s.trim();
@@ -10,7 +11,6 @@ public class Solution {
             char chr = s.charAt(index);
 
             //2. Check if next Char (if not the end) is  '-' or '+', read the char in
-            boolean isNegative = false;
             if (chr == '-')
                 isNegative = true;
 
@@ -21,6 +21,8 @@ public class Solution {
         }
         //4. convert into integer
         result = Integer.parseInt(strDigit.toString());
+        if (isNegative)
+            result *= -1;
 
         //5. if result is out of 32-bit signed integer range, clamp it.
         return result;
