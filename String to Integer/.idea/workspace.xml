@@ -41,6 +41,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CountingValley" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -79,8 +85,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="-1026" key="#Project_Structure" timestamp="1613360674242">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state x="440" y="-1026" key="#Project_Structure/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1613360674242" />
+    <state x="740" y="-845" key="FileChooserDialogImpl" timestamp="1613361901181">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state x="740" y="-845" key="FileChooserDialogImpl/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1613361901181" />
     <state width="1877" height="411" key="GridCell.Tab.0.bottom" timestamp="1613341234314">
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
