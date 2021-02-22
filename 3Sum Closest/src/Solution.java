@@ -18,13 +18,13 @@ class Solution {
         int threeSum = nums[0] + nums[1] + nums[2];
         if (threeSum-target == 0)
             return threeSum;
-        for(int i=0; i<nums.length-3; i++){
-            for(int j=i+1; j<nums.length-2; j++){
-                for(int k=j+2; k<nums.length-1; k++){
+        for(int i=0; i<nums.length-2; i++){
+            for(int j=i+1; j<nums.length-1; j++){
+                for(int k=j+1; k<nums.length; k++){
                     int temp = nums[i] + nums[j] + nums[k];
-                    if (temp-target == 0)
+                    if (Math.abs(temp-target) == 0)
                         return temp;
-                    if (temp-target < threeSum)
+                    if (Math.abs(temp-target) < threeSum)
                         threeSum = temp;
                 }
             }
