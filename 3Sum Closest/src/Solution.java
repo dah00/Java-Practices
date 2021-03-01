@@ -22,9 +22,10 @@ class Solution {
             for(int j=i+1; j<nums.length-1; j++){
                 for(int k=j+1; k<nums.length; k++){
                     int temp = nums[i] + nums[j] + nums[k];
-                    if (Math.abs(temp-target) == 0)
+                    int difference = Math.abs(temp-target);
+                    if (difference == 0)
                         return temp;
-                    if (Math.abs(temp-target) < threeSum)
+                    if (difference < Math.abs(threeSum))
                         threeSum = temp;
                 }
             }
