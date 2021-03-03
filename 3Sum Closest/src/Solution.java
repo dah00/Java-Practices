@@ -25,7 +25,7 @@ class Solution {
                     int difference = Math.abs(temp-target);
                     if (difference == 0)
                         return temp;
-                    if (difference < Math.abs(threeSum))
+                    if (difference < Math.abs(target-threeSum))
                         threeSum = temp;
                 }
             }
