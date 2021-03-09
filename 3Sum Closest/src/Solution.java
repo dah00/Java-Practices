@@ -2,6 +2,44 @@ import java.util.Arrays;
 
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
+        /*
+            Second try O(n^2)
+            [-4, -1, 1, 2,]
+             ^    ^     ^
+             i   low   high
+         */
+        int threeSum = nums[0] + nums[1] + nums[2];
+        if (threeSum == target)
+            return threeSum;
+        Arrays.sort(nums);
+        for (int i=0; i<nums.length-2; i++){
+            int low = i+1, high = nums.length-1;
+            while(low!=high){
+                int sum = nums[i] + nums[low] + nums[high];
+                int difference = Math.abs(sum-target);
+                if (difference == 0) {
+                    return sum;
+                }
+                if (difference < Math.abs(target-threeSum))
+                    threeSum = sum;
+                if (sum<target)
+                    low++;
+                else
+                    high--;
+            }
+
+
+        }
+
+        return threeSum;
+
+
+
+
+
+
+
+
         // [-1, 2, 1, -4]       target = 1
         // Sort the array in ascending order
         // [-4, -1, 1, 2]
@@ -14,7 +52,13 @@ class Solution {
         // threeSum = threemSum
         // if threeSum-target = 0
         // return threeSum
-        Arrays.sort(nums);
+
+
+        /*
+            First try brute force
+            O(n^3)
+         */
+/*        Arrays.sort(nums);
         int threeSum = nums[0] + nums[1] + nums[2];
         if (threeSum-target == 0)
             return threeSum;
@@ -30,7 +74,7 @@ class Solution {
                 }
             }
         }
-        return threeSum;
+        return threeSum;*/
 
     }
 }
