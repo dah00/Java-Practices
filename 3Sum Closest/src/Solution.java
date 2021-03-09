@@ -7,6 +7,9 @@ class Solution {
             [-4, -1, 1, 2,]
              ^    ^     ^
              i   low   high
+
+             if (sum < target) increment low
+             if (sum > target) decrement high
          */
         int threeSum = nums[0] + nums[1] + nums[2];
         if (threeSum == target)
