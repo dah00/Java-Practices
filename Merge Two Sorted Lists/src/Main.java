@@ -3,6 +3,10 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+
+
+
+        // result = [1 ,1 ,2 ,3 ,4, 4]
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(2);
         l1.next.next = new ListNode(4);
@@ -131,6 +135,11 @@ public class Main {
         1ms,
 
      */
+
+    // l1 = [1, 2, 4]
+
+    // l2 = [1, 3, 4]
+
     private static ListNode mergeTwoLists(ListNode l1, ListNode l2){
         if (l1 == null) return l2;
         if (l2 == null) return l1;
