@@ -21,7 +21,8 @@ public class Main {
     }
 
     private static int maxProfit(int[] prices) {
-        int profit = 0, i=0;
+        // First try
+/*        int profit = 0, i=0;
         while(i<prices.length-1){
             if(prices[i] > prices[i+1])
                 i++;
@@ -33,6 +34,15 @@ public class Main {
                 profit += prices[j] - prices[i];
                 i = j+1;
             }
+        }
+        return profit;*/
+
+        // Better performance
+        int profit = 0;
+
+        for (int i=1; i<prices.length; i++){
+            if(prices[i] > prices[i-1])
+                profit += prices[i] - prices[i-1];
         }
         return profit;
     }
