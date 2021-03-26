@@ -8,9 +8,10 @@ public class Main {
 	    System.out.println(Arrays.toString(nums));
 
     }
-
+    // My approach
     private static void rotate(int[] nums, int k){
         if(nums.length>1){
+            k %= nums.length;
             int i = 1;
             while(i <= k){
                 int temp = nums[0];
@@ -22,4 +23,23 @@ public class Main {
             }
         }
     }
+
+    // Best approach
+    /*
+          public void rotate(int[] nums, int k) {
+            k %= nums.length;
+            reverse(nums, 0, nums.length - 1);
+            reverse(nums, 0, k - 1);
+            reverse(nums, k, nums.length - 1);
+          }
+          public void reverse(int[] nums, int start, int end) {
+            while (start < end) {
+              int temp = nums[start];
+              nums[start] = nums[end];
+              nums[end] = temp;
+              start++;
+              end--;
+            }
+          }
+     */
 }
