@@ -9,6 +9,11 @@ public class Main {
 
     private int singleNumber(int[] nums) {
         // O(n) with 1ms using XOR
+        /**
+         * a XOR 0 = a
+         * a XOR a = 0
+         * So, a XOR b XOR c XOR a XOR b = c
+         */
         int a = 0;
         for (int i : nums) {
             a ^= i;
