@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
 
@@ -8,8 +10,14 @@ public class Main {
     }
 
     private static boolean containsDuplicate(int[] nums) {
+        Set<Integer> set = new HashSet<>(nums.length);
+        for(int element: nums){
+            if (set.contains(element))
+                return true;
+            set.add(element);
+        }
+        return false;
 
-        
 
         // Second try
         // Better time complexity by sorting the array first
