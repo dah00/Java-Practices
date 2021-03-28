@@ -7,7 +7,32 @@ public class Main {
     }
 
     private int[] intersect(int[] nums1, int[] nums2){
-        Map<Integer, Integer> map = new HashMap<>();
+        // Solution 2
+        List<Integer> list = new ArrayList<>();
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        for (int i=0, j=0; i<nums1.length && j<nums2.length;){
+            if(nums1[i]<nums2[j]){
+                i++;
+            }
+            else if(nums1[i] == nums2[j]){
+                list.add(nums1[i]);
+                i++;
+                j++;
+            }
+            else{
+                j++;
+            }
+        }
+        int[] result = new int[list.size()];
+        for(int i = 0; i<list.size();i++){
+            result[i] = list.get(i);
+        }
+        return result;
+
+
+        // Solution 1
+/*        Map<Integer, Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
 
         for (int element1: nums1){
@@ -37,6 +62,6 @@ public class Main {
             array[count++] = element3;
         }
 
-        return array;
+        return array;*/
     }
 }
