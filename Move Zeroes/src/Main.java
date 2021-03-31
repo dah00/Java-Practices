@@ -13,7 +13,24 @@ public class Main {
      * @param nums
      */
     private static void moveZeroes(int[] nums){
-        if(nums.length > 1){
+        // Shift non-zero values as far forward as possible
+        // Fill remaining space with zeros
+        int nonZeroIndex = 0;
+
+        for (int i=0; i<nums.length; i++){
+            if(nums[i] != 0)
+                nums[nonZeroIndex++] = nums[i];
+        }
+
+        for (int i=nonZeroIndex; i<nums.length; i++)
+            nums[i] = 0;
+
+
+
+        // have two pointers i and j
+        // where i(index 0 -> length-2) and j(index i+1 -> length-1)
+        // if nums[i] == 0 -> let nums[j] find a non-zero element and switch.
+        /*if(nums.length > 1){
             for(int i=0; i<nums.length-1; i++){
                 if(nums[i] == 0){
                     int j = i+1;
@@ -24,6 +41,6 @@ public class Main {
                     nums[j] = temp;
                 }
             }
-        }
+        }*/
     }
 }
