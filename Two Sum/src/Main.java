@@ -8,38 +8,34 @@ public class Main {
     }
 
 
-    private static int[] twoSum(int[] nums, int target){
-        Map<Integer, Integer> map = new HashMap<>();
-        int[] sumArray = new int[2];
+    private static int[] twoSum(int[] nums, int target) {
 
-        for (int i=0; i<nums.length; i++)
-            map.put(i, (target-nums[i]));
-        for (int i=0; i<nums.length; i++){
-            if (map.containsValue(nums[i])){
-                sumArray[0] = (int)getKeyByValue(map, nums[i]);
-                break;
-            }
+        // Better time complexity O(n) using hashtable
+        /*Map<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++)
+            map.put(nums[i], i);
+
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement) && map.get(complement) != i)
+                return new int[]{i, map.get(complement)};
         }
-        return sumArray;
-    }
 
-    private static Object getKeyByValue(Map<Integer, Integer> map, int value) {
-        for (Integer key : map.keySet()) {
-            if (value == map.get(key))
-                return key;
-        }
-        return null;
-    }
+        throw new IllegalArgumentException("No two sum");*/
 
+
+
+    // Brute force O(n^2)
     /*
-    		int[] results = new int[2];
+
 		for (int i = 0; i < nums.length; i++ )
 			for(int j = i+1; j < nums.length; j++) {
 				if (nums[i]+nums[j] == target) {
-					results[0] = i;
-					results[1] = j;
+					return new int[]{i,j};
 				}
 		    }
-        return results;
+        throw new IllegalArgumentException("No two sum solution");
      */
+    }
 }
