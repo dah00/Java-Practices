@@ -45,6 +45,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,11 +72,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="-894" key="#com.intellij.ide.util.MemberChooser" timestamp="1617908453182">
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
     <state x="765" y="-894" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1617908453182" />
+    <state width="1492" height="334" key="GridCell.Tab.0.bottom" timestamp="1617915820494">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1617910284522" />
+    <state width="1492" height="334" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617915820494" />
+    <state width="1492" height="334" key="GridCell.Tab.0.center" timestamp="1617915820494">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1617910284522" />
+    <state width="1492" height="334" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1617915820494" />
+    <state width="1492" height="334" key="GridCell.Tab.0.left" timestamp="1617915820494">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1617910284522" />
+    <state width="1492" height="334" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1617915820494" />
+    <state width="1492" height="334" key="GridCell.Tab.0.right" timestamp="1617915820494">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1617910284522" />
+    <state width="1492" height="334" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1617915820494" />
   </component>
 </project>

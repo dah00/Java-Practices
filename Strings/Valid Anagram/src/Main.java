@@ -4,11 +4,28 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println('a'-'z');
     }
 
     private boolean isAnagram(String s, String t){
-        if (s.length() != t.length())
+    // Better solution
+        if (s.length() != t.length()) {
+            return false;
+        }
+        int[] table = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            table[s.charAt(i) - 'a']++;
+        }
+        for (int i = 0; i < t.length(); i++) {
+            table[t.charAt(i) - 'a']--;
+            if (table[t.charAt(i) - 'a'] < 0) {
+                return false;
+            }
+        }
+        return true;
+
+        // 1st try
+/*        if (s.length() != t.length())
             return false;
 
         Map<Character, Integer> map = new HashMap<>();
@@ -30,7 +47,7 @@ public class Main {
             return true;
 
 
-        return false;
+        return false;*/
 
     }
 }
