@@ -8,7 +8,7 @@ public class Main {
         System.out.println(isPalindrome(str));
     }
 
-    private static boolean isPalindrome(String s){
+    public static boolean isPalindrome(String s){
         s = s.toLowerCase();
         StringBuffer sAlphNum = new StringBuffer();
 

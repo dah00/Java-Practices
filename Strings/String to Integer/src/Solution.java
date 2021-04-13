@@ -16,6 +16,8 @@ public class Solution {
         if (index<s.length() && (s.charAt(index)=='-' || s.charAt(index)=='+'))
             isNegative = (s.charAt(index++)=='-' ? true : false);
 
+
+
         // Build the result and check for overflow/underflow
         while(index<s.length() && s.charAt(index)>='0' && s.charAt(index)<='9'){
             if (result > Integer.MAX_VALUE/10 ||
@@ -23,6 +25,8 @@ public class Solution {
                 return (isNegative) ? Integer.MIN_VALUE : Integer.MAX_VALUE;
             result = result * 10 + (s.charAt(index++) - '0');
         }
+
+
 
         return isNegative ? result * -1 : result;
 
