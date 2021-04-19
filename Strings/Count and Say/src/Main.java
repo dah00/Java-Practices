@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        String str = countAndSay(2);
+        String str = countAndSay(6);
         System.out.println(str);
     }
 
@@ -24,27 +24,37 @@ public class Main {
      * @return say
      */
     private static String countAndSay(int n){
-        if(n==1)
-            return new String("1");
+
+        // Base case n=1 : say="1"
+        //           n=2 : we count
 
         int count = 1;
         String say = "1";
 
-        while(count<=n){
+        while(count<n){
             StringBuffer stringBuffer = new StringBuffer();
-            for (int i=1; i<say.length(); i++){
+            for (int i=0; i<say.length(); i++){
                 char chr = say.charAt(i);
                 int repeat = 1;
 
-                while((i<say.length()) && chr == say.charAt(i-1)){
-                    repeat++; i++;
+                while (i+1<say.length()) {
+                    if (chr == say.charAt(i + 1)) {
+                        repeat++;
+                        i++;
+                    }
+                    else
+                        break;
                 }
-                stringBuffer.append((char)repeat + say.charAt(i-1));
+
+                char temp = Character.forDigit(repeat, 10);
+                stringBuffer.append(temp);
+                stringBuffer.append(chr);
             }
 
             say = stringBuffer.toString();
             count++;
         }
+
 
         return say;
     }
