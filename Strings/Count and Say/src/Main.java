@@ -6,6 +6,11 @@ public class Main {
     }
 
     /**
+     * New things learned:
+     * Casting an integer into a char : Character.forDigit(repeat, 10);
+     */
+
+    /**
      * The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
      *
      * countAndSay(1) = "1"
@@ -24,37 +29,24 @@ public class Main {
      * @return say
      */
     private static String countAndSay(int n){
-
-        // Base case n=1 : say="1"
-        //           n=2 : we count
-
-        int count = 1;
         String say = "1";
 
-        while(count<n){
-            StringBuffer stringBuffer = new StringBuffer();
+        while(n > 1){
+            StringBuilder stringBuilder = new StringBuilder();
             for (int i=0; i<say.length(); i++){
                 char chr = say.charAt(i);
                 int repeat = 1;
 
-                while (i+1<say.length()) {
-                    if (chr == say.charAt(i + 1)) {
-                        repeat++;
-                        i++;
-                    }
-                    else
-                        break;
+                while( i+1 < say.length() && chr == say.charAt(i+1)){
+                    repeat++;
+                    i++;
                 }
+                stringBuilder.append(repeat).append(chr);
 
-                char temp = Character.forDigit(repeat, 10);
-                stringBuffer.append(temp);
-                stringBuffer.append(chr);
             }
-
-            say = stringBuffer.toString();
-            count++;
+            say = stringBuilder.toString();
+            n--;
         }
-
 
         return say;
     }
