@@ -1,14 +1,14 @@
 public class Main {
 
     public static void main(String[] args) {
-        String[] str = {"ab", "a"};
+        String flower = "flower";
+        String flow = "flow";
 
-        System.out.println(longestCommonPrefix(str));
+        System.out.println(flow.indexOf(flower));
     }
 
     private static String longestCommonPrefix(String[] strs){
-        // Brute force
-
+/*        // Brute force
         StringBuilder stringBuilder = new StringBuilder();
 
         for(int i=0; i<strs[0].length(); i++){
@@ -28,7 +28,19 @@ public class Main {
                 break;
         }
 
-        return stringBuilder.toString();
+        return stringBuilder.toString();*/
+
+        // Better solution
+        if (strs.length == 0) return "";
+        String prefix = strs[0];
+        for (int i = 1; i < strs.length; i++)
+            while (strs[i].indexOf(prefix) != 0) {
+                prefix = prefix.substring(0, prefix.length() - 1);
+                if (prefix.isEmpty()) return "";
+            }
+        return prefix;
 
     }
+
+
 }
