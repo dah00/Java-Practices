@@ -7,15 +7,47 @@ public class Main {
 	// write your code here
     }
 
+    /**
+     * Determine if a given Linked List has a cycle
+     * @param head
+     * @return true if cycle has occurred, otherwise return false
+     */
     private boolean hasCycle(ListNode head) {
-        Set<ListNode> set = new HashSet<>();
+
+        /**
+         * Using two pointers:
+         *  slow: jump one node at the time
+         *  fast: jump two nodes at the time
+         *  if there's a cycle the fast pointer will eventually catch the slow pointer
+         */
+        if(head == null)
+            return false;
+
+        ListNode slow = head;
+        ListNode fast = head.next;
+
+        while(slow != fast){
+            if(fast == null || fast.next == null)
+                return false;
+
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return true;
+
+
+        /**
+         * Store the Node in the set instead of the value of the node
+         */
+        // Using HashSet
+        /*Set<ListNode> set = new HashSet<>();
         while(head!=null){
             if(set.contains(head))
                 return true;
             set.add(head);
             head = head.next;
         }
-        return false;
+        return false;*/
     }
 
 
