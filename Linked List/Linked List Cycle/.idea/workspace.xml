@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4db716d7-e533-44eb-909d-14dab512025e" name="Default Changelist" comment="" />
+    <list default="true" id="979f6a18-d846-42e0-9372-205d99b00727" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1rzWxDSd5gbzh71tOM5lnyuUbSK" />
+  <component name="ProjectId" id="1s25pc3eyp4fBcSuEyGfW3SO435" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +37,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Palindrome Linked List" />
+      <module name="Linked List Cycle" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -49,11 +49,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4db716d7-e533-44eb-909d-14dab512025e" name="Default Changelist" comment="" />
-      <created>1619979643361</created>
+      <changelist id="979f6a18-d846-42e0-9372-205d99b00727" name="Default Changelist" comment="" />
+      <created>1620058027991</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619979643361</updated>
+      <updated>1620058027991</updated>
     </task>
     <servers />
   </component>
@@ -67,5 +67,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
