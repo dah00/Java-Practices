@@ -8,19 +8,12 @@ public class Main {
     }
 
     static int getMinDistance(int[] nums, int target, int start){
-        Set<Integer> indices = new HashSet<>();
+        int ans = Integer.MAX_VALUE;
 
         for(int i=0; i<nums.length; i++){
             if(nums[i] == target){
-                indices.add(i);
+                ans = Math.min(ans, Math.abs(i-start));
             }
-        }
-
-        //Object obj = Collections.min(indices);
-        int ans = Integer.MAX_VALUE;
-        for(Integer index : indices){
-            if(Math.abs(index-start) < ans)
-                ans = Math.abs(index-start);
         }
 
         return ans;
