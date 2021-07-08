@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74461c86-bd17-4687-8c7b-271b1736e086" name="Default Changelist" comment="" />
+    <list default="true" id="f9ded3c4-8416-43c8-b916-ce5f138a896d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1uxpzHd4RGRnisjYfuV8Xt6Syjx" />
+  <component name="ProjectId" id="1v0upyvDmLfJC35VHwDqYzDdVIC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +37,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Count Binary Substings" />
+      <module name="Minimum Distance to the Target Element" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -49,11 +49,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="74461c86-bd17-4687-8c7b-271b1736e086" name="Default Changelist" comment="" />
-      <created>1625617354627</created>
+      <changelist id="f9ded3c4-8416-43c8-b916-ce5f138a896d" name="Default Changelist" comment="" />
+      <created>1625711514402</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625617354627</updated>
+      <updated>1625711514402</updated>
     </task>
     <servers />
   </component>
@@ -67,6 +67,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
