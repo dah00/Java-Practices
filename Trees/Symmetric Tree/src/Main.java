@@ -1,14 +1,34 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class Main {
 
     public static void main(String[] args) {
-        TreeNode node1 = new TreeNode(2);
-        TreeNode node2 = new TreeNode(2);
-        System.out.println(node1 == node2);
+        TreeNode leftNode = new TreeNode(2);
+        TreeNode rightNode = new TreeNode(2);
+        System.out.println(leftNode == rightNode);
     }
     static boolean isSymmetric(TreeNode root) {
-        return helper(root.left, root.right);
+        /* Recursion method*/
+        //return helper(root.left, root.right);
+        
+        /* non-recursion method*/
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        queue.add(root);
+        while(!queue.isEmpty()){
+            TreeNode leftNode = queue.poll();
+            TreeNode rightNode = queue.poll();
+            if (leftNode == null && rightNode == null) continue;
+            if (leftNode == null || rightNode == null) return false;
+            if (leftNode.val != rightNode.val) return false;
+            queue.add(leftNode.left);
+            queue.add(rightNode.right);
+            queue.add(leftNode.right);
+            queue.add(rightNode.left);
+        }
+        return true;
     }
 
     static boolean helper(TreeNode leftNode, TreeNode rightNode){
