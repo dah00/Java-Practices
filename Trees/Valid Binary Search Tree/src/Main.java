@@ -3,35 +3,41 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
+        TreeNode root = new TreeNode(5);
+        TreeNode three = new TreeNode(3);
+        TreeNode two = new TreeNode(2);
+        TreeNode four = new TreeNode(4);
+        TreeNode nine = new TreeNode(9);
+        TreeNode seven = new TreeNode(7);
+        TreeNode twelve = new TreeNode(12);
+
+        root.left = three;
+        root.right = nine;
+
+        three.left = two;
+        three.right = four;
+
+        nine.left = seven;
+        nine.right = twelve;
+
+        System.out.println(isValidBST(root));
 
     }
 
-    static  boolean isValidBST(TreeNode root) {
-        Stack<TreeNode> nodes = new Stack<>();
+    static boolean isValidBST(TreeNode root) {
+        return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
 
-        nodes.push(root);
-        TreeNode curr = null;
-
-        while(!nodes.empty()){
-            curr = nodes.pop();
-            if (curr.right != null){
-                if(curr.val < curr.right.val){
-                    nodes.push(curr.right);
-                }else
-                    return false;
-            }if(curr.left != null){
-                if (curr.val > curr.left.val){
-                    nodes.push(curr.left);
-                }else
-                    return false;
-            }
-        }
-
-        return true;
+    static boolean helper(TreeNode node, long min, long max){
+        if (node == null)
+            return true;
+        if (node.val<=min || node.val>=max)
+            return false;
+        return helper(node.left, min, node.val) && helper(node.right, node.val, max);
     }
 
 
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
