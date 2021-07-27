@@ -10,34 +10,26 @@ public class Main {
     }
 
     static List<List<Integer>> levelOrder(TreeNode root){
-        if (root == null)
-            return new LinkedList<>();
         List<List<Integer>> list = new LinkedList<>();
-        List<Integer> rootlevel = new LinkedList<>(Arrays.asList(root.val));
-        list.add(rootlevel);
+        if (root == null) {
+            return list;
+        }
 
         Queue<TreeNode> queue = new LinkedList<>();
-        if(root.left != null)
-            queue.offer(root.left);
-        if(root.right != null)
-            queue.offer(root.right);
+        queue.offer(root);
 
         while(!queue.isEmpty()){
             List<Integer> level = new LinkedList<>();
-            for (TreeNode node: queue){
-                level.add(node.val);
+            int size = queue.size();
+            for (int i=0; i<size; i++){
+                TreeNode node = queue.peek();
+                if (node.left != null)
+                    queue.offer(node.left);
+                if (node.right != null)
+                    queue.offer(node.right);
+                level.add(queue.poll().val);
             }
             list.add(level);
-
-            Queue<TreeNode> tempQueue = new LinkedList<>();
-            for (TreeNode node: queue){
-                if (node.left != null)
-                    tempQueue.offer(node.left);
-                if (node.right != null)
-                    tempQueue.offer(node.right);
-            }
-            queue.clear();
-            queue = tempQueue;
         }
 
         return list;
