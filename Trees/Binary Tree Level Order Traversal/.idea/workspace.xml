@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b32800-05de-4f09-aba2-d8efee5e8794" name="Default Changelist" comment="" />
+    <list default="true" id="9a4f5caa-ca96-4e4c-9ca7-ee0679da3c7a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1vshWjiFGrmCzWmKnNU7KrebkBE" />
+  <component name="ProjectId" id="1vtFbgfEaahMboDvvFmsqO1gPOv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +37,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Symmetric Tree" />
+      <module name="Binary Tree Level Order Traversal" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -45,20 +45,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e2b32800-05de-4f09-aba2-d8efee5e8794" name="Default Changelist" comment="" />
-      <created>1627356737734</created>
+      <changelist id="9a4f5caa-ca96-4e4c-9ca7-ee0679da3c7a" name="Default Changelist" comment="" />
+      <created>1627373550633</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1627356737734</updated>
+      <updated>1627373550633</updated>
     </task>
     <servers />
   </component>
@@ -72,27 +67,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="-894" key="#com.intellij.ide.util.MemberChooser" timestamp="1627359052688">
-      <screen x="0" y="-1200" width="1920" height="1200" />
-    </state>
-    <state x="765" y="-894" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627359052688" />
-    <state width="1877" height="334" key="GridCell.Tab.0.bottom" timestamp="1627373518077">
-      <screen x="0" y="-1200" width="1920" height="1200" />
-    </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627373518077" />
-    <state width="1877" height="334" key="GridCell.Tab.0.center" timestamp="1627373518077">
-      <screen x="0" y="-1200" width="1920" height="1200" />
-    </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627373518077" />
-    <state width="1877" height="334" key="GridCell.Tab.0.left" timestamp="1627373518077">
-      <screen x="0" y="-1200" width="1920" height="1200" />
-    </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627373518077" />
-    <state width="1877" height="334" key="GridCell.Tab.0.right" timestamp="1627373518077">
-      <screen x="0" y="-1200" width="1920" height="1200" />
-    </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627373518077" />
   </component>
 </project>
