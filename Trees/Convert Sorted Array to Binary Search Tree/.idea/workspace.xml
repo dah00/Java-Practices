@@ -34,6 +34,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Binary Tree Level Order Traversal/src/Main.java" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -45,6 +48,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,5 +75,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="-845" key="FileChooserDialogImpl" timestamp="1627602791016">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state x="740" y="-845" key="FileChooserDialogImpl/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627602791016" />
+    <state width="1877" height="411" key="GridCell.Tab.0.bottom" timestamp="1627603801103">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.0.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801103" />
+    <state width="1877" height="411" key="GridCell.Tab.0.center" timestamp="1627603801103">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.0.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801103" />
+    <state width="1877" height="411" key="GridCell.Tab.0.left" timestamp="1627603801103">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.0.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801103" />
+    <state width="1877" height="411" key="GridCell.Tab.0.right" timestamp="1627603801103">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.0.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801103" />
+    <state width="1877" height="411" key="GridCell.Tab.1.bottom" timestamp="1627603801104">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.bottom/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801104" />
+    <state width="1877" height="411" key="GridCell.Tab.1.center" timestamp="1627603801104">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.center/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801104" />
+    <state width="1877" height="411" key="GridCell.Tab.1.left" timestamp="1627603801104">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.left/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801104" />
+    <state width="1877" height="411" key="GridCell.Tab.1.right" timestamp="1627603801104">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="411" key="GridCell.Tab.1.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627603801104" />
   </component>
 </project>
