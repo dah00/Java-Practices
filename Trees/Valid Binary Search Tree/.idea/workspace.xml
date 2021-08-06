@@ -34,6 +34,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -107,5 +110,9 @@
       <screen x="0" y="-1200" width="1920" height="1200" />
     </state>
     <state width="1877" height="411" key="GridCell.Tab.1.right/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1627356709603" />
+    <state x="660" y="-843" key="refactoring.ChangeSignatureDialog" timestamp="1628236151239">
+      <screen x="0" y="-1200" width="1920" height="1200" />
+    </state>
+    <state x="660" y="-843" key="refactoring.ChangeSignatureDialog/0.0.1536.864/0.-1200.1920.1200@0.-1200.1920.1200" timestamp="1628236151239" />
   </component>
 </project>

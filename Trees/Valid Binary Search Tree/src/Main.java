@@ -28,13 +28,32 @@ public class Main {
         return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    static boolean helper(TreeNode node, long min, long max){
+    static boolean helper(TreeNode node, long low, long high){
+        if (node == null)
+            return true;
+        if (node.val <= low || node.val >= high)
+            return false;
+        return helper(node.left, low, node.val) && helper(node.right, node.val, high);
+    }
+
+
+
+
+
+
+
+
+
+        /*return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }*/
+
+/*    static boolean helper(TreeNode node, long min, long max){
         if (node == null)
             return true;
         if (node.val<=min || node.val>=max)
             return false;
         return helper(node.left, min, node.val) && helper(node.right, node.val, max);
-    }
+    }*/
 
 
     public static class TreeNode {
