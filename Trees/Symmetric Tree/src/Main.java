@@ -19,7 +19,7 @@ public class Main {
         //return helper(root.left, root.right);
         
         /* non-recursion method*/
-/*        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         queue.add(root);
         while(!queue.isEmpty()){
@@ -33,7 +33,7 @@ public class Main {
             queue.add(leftNode.right);
             queue.add(rightNode.left);
         }
-        return true;*/
+        return true;
 
 
 
@@ -51,20 +51,41 @@ public class Main {
             TreeNode curr = queue.poll();
             // if child not null put it in both stack and queue
             // else put it in stack only
-            if (curr.left != null)
+            if (curr.left == null){
+                if (!stack.empty() && stack.peek() == null)
+                    stack.pop();
+                else
+                    stack.push(null);
+            }
+            else{
                 queue.add(curr.left);
-            if (!stack.empty() && stack.peek() == curr.left.val)
-                stack.pop();
-            // TODO: Check the case when curr.left is null // same for right child
-            else
-                stack.push(curr.left.val);
+                if (!stack.empty()) {
+                    if (stack.peek() != null && stack.peek() == curr.left.val)
+                        stack.pop();
+                    else
+                        stack.push(curr.left.val);
+                }
+                else
+                    stack.push(curr.left.val);
+            }
 
-            if (curr.right != null)
+            if (curr.right == null){
+                if (!stack.empty() && stack.peek() == null)
+                    stack.pop();
+                else
+                    stack.push(null);
+            }
+            else{
                 queue.add(curr.right);
-            if (!stack.empty() && stack.peek() == curr.right.val)
-                stack.pop();
-            else
-                stack.push(curr.right.val);
+                if (!stack.empty()){
+                    if (stack.peek() != null && stack.peek() == curr.right.val)
+                        stack.pop();
+                    else
+                        stack.push(curr.right.val);
+                }
+                else
+                    stack.push(curr.right.val);
+            }
         }
 
         if (stack.empty())

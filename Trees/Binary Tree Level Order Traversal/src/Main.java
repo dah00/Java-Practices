@@ -6,7 +6,8 @@ import java.util.Queue;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    String str = "obed";
+	    str.length();
     }
 
     static List<List<Integer>> levelOrder(TreeNode root){
