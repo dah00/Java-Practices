@@ -11,7 +11,7 @@ public class Main {
     }
 
     static List<List<Integer>> levelOrder(TreeNode root){
-        List<List<Integer>> list = new LinkedList<>();
+   /*     List<List<Integer>> list = new LinkedList<>();
         if (root == null) {
             return list;
         }
@@ -33,7 +33,81 @@ public class Main {
             list.add(level);
         }
 
+        return list;*/
+
+
+        // store root in the first element of the list
+        // Put its children (max 2) in the second element of the list
+        // for each children nod of the root, store their children as the 3rd element of the list
+
+        // Scenarios
+            // node has two children
+            // node has left child only
+            // node has right child only
+            // node has no child
+
+        List<List<Integer>> list = new LinkedList<>();
+        if (root==null)
+            return list;
+        list.add(new LinkedList<>(Arrays.asList(root.val)));
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        int nbr = 1;
+
+        while(!queue.isEmpty()){
+            TreeNode node = queue.poll();
+            nbr--;
+            if (node.left!=null)
+                queue.add(node.left);
+            if (node.right!=null)
+                queue.add(node.right);
+            if (nbr==0){
+                List<Integer> sublist = new LinkedList<>();
+                for (TreeNode element: queue)
+                    sublist.add(element.val);
+                list.add(sublist);
+                nbr = queue.size();
+            }
+        }
+
         return list;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 

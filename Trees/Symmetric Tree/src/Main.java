@@ -41,7 +41,7 @@ public class Main {
 
 
 
-        if(root == null)
+ /*       if(root == null)
             return true;
         Queue<TreeNode> queue = new LinkedList<>();
         Stack<Integer> stack = new Stack<>();
@@ -90,7 +90,7 @@ public class Main {
 
         if (stack.empty())
             return true;
-        return false;
+        return false;*/
 
 
 
